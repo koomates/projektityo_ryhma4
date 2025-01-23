@@ -6,13 +6,6 @@ body {
     background-color: #f4f4f4;
 }
 
-header {
-    background-color: #ffcc00;
-    color: #333;
-    padding: 10px 0;
-    text-align: center;
-}
-
 header h1 {
     margin: 0;
 }
