@@ -4,6 +4,8 @@ body {
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    height: 100%;
+    
 }
 
 header h1 {
@@ -47,11 +49,14 @@ section img {
 }
 
 footer {
+    margin: 0;
+    padding: 20px;
     background-color: #f0f0f0;
     color: black;
     text-align: center;
-    padding: 20px;
-    margin-top: 20px;
     font-size: 14px;
     border-top: 2px solid #e0e0e0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
 }
