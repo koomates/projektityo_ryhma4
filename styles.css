@@ -14,12 +14,27 @@ section img {
     border-radius: 10px;
 }
 
+/*Riina*/
+
 .hero {
     color: white;
     text-align: center;
     padding: 20px;
     margin: 0;
     height: 100%;
+}
+
+.hero h1 {
+    margin-top: 40px;
+}
+
+.wolt-painike {
+    background-color: #0072ce;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2em;
 }
 
 footer {
