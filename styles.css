@@ -1,19 +1,11 @@
 /* styles.css */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    height: 100%;
-    
+
+section {
+    margin-bottom: 0px;
 }
 
 main {
-    padding: 20px;
-}
-
-section {
-    margin-bottom: 20px;
+    margin-top:200px; /* Adjust this value based on the height of your navbar */
 }
 
 section img {
@@ -44,6 +36,12 @@ footer {
 }
 
 .header-logo{
-    height: 10vh;
-    padding-left: 60%;
+    width: 10vh;
+}
+
+.bg-item{
+    height: 100vh;
+    object-fit: cover;
+    width: 100%;
+    position: absolute;
 }
