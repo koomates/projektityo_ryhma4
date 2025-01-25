@@ -5,7 +5,7 @@ section {
 }
 
 main {
-    margin-top:200px; /* Adjust this value based on the height of your navbar */
+    margin-top:200px;
 }
 
 section img {
@@ -34,6 +34,8 @@ footer {
     bottom: 0;
     width: 100%;
 }
+
+/*Marjaana*/
 
 .header-logo{
     width: 10vh;
