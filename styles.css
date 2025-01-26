@@ -41,17 +41,20 @@ section img {
 
 footer {
     margin: 0;
-    padding: 20px;
+    padding: 10px;
     background-image: url('footer.jpg');
     background-size: cover;
     background-position: center;
     color: black;
     text-align: center;
-    font-size: 14px;
     border-top: 2px solid #e0e0e0;
-    position: fixed;
+    position: absolute;
     bottom: 0;
     width: 100%;
+    .email {
+        text-decoration: underline;
+    }
+    
 }
 
 /*Marjaana*/
