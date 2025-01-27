@@ -181,25 +181,31 @@ body {
     }
     
 
-
+/* Ajankohtaista (Marjaana)*/
 .topic {
     color: white;
     text-align: left;
-    padding: 20px;
-    padding-top: 40px;
     margin: 0;
     height: 100%;
-}
 
-.topic h2 {
-    margin-top: 40px;
 }
 
 .topic-painike {
-    background-color: #0072ce;
-    color: white;
-    padding: 10px 20px;
-    text-decoration: none;
-    border-radius: 5px;
-    font-size: 1.2em;
+    color: #D9D9D9;
+    text-transform: uppercase;
+    transition: color 0.3s ease, transform 0.3s ease;
+    text-decoration: underline;
+    font-size: 1rem;
+    text-underline-offset: 4px;
+    position: relative;
+}
+
+
+
+.topic-painike:hover {
+background-color: #D9D9D9;
+transform: scale(1.1);
+text-shadow: 0 0 8px #D9D9D9;
+color: black;
+padding: 3px;
 }
