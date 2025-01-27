@@ -129,6 +129,23 @@ body {
     text-shadow: 0 0 10px #D9D9D9;
     transform: scale(1.1);
 }
+
+
+.navbar-container {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: background-color 0.3s ease;
+}
+
+#navbar-toggle:checked ~ .navbar-container {
+    background-color: rgba(0, 0, 0, 1);
+}
+
+#navbar-toggle:checked ~ .navbar-container .collapse {
+    display: block !important;
+}
+
+/*Marjaana navbar loppuu*/
+
 .hero_2 {
     color: white;
     text-align: left;
@@ -181,7 +198,7 @@ body {
     }
     
 
-/* Ajankohtaista (Marjaana)*/
+/* Ajankohtaista (Marjaana) alkaa*/
 .topic {
     color: white;
     text-align: left;
@@ -209,3 +226,4 @@ text-shadow: 0 0 8px #D9D9D9;
 color: black;
 padding: 3px;
 }
+/* Ajankohtaista (Marjaana) loppuu*/
